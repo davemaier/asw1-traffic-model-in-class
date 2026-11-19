@@ -4,4 +4,6 @@ version = "0.1.0"
 description = "Cars on a ring road: the Nagel-Schreckenberg traffic model, from the ODD to code"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+]

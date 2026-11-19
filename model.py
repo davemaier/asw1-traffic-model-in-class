@@ -61,8 +61,7 @@ def accelerate(speed: int) -> int:
 # ODD 7, submodel 2
 def brake(speed: int, gap: int) -> int:
     """A car never goes further than the empty cells in front of it."""
-    # TODO: the rule of ODD 7. For now the car ignores the gap.
-    return speed
+    return min(speed, gap) 
 
 
 # ODD 7, submodel 3
